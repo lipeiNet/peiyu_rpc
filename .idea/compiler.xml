@@ -22,11 +22,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="peiyu_rpc" />
+        <module name="rpcserver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="clients" target="1.5" />
+      <module name="contract" target="1.5" />
+      <module name="contracts" target="1.5" />
       <module name="peiyu_rpc" target="1.5" />
+      <module name="rpcserver" target="1.6" />
+      <module name="services" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
